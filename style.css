@@ -1,0 +1,49 @@
+h1 {
+    color: blueviolet;
+    font-size: 2.5em; /* טיפה יותר גדול מהרגיל */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* כדי שירד שורה במסך צר */
+    justify-content: center;
+    gap: 10px; /* רווח בין התמונות */
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+ul{
+    font-size: 2.5em;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -moz-text-decoration-color: coral;
+    color: coral;
+}
+li{
+    color: coral;
+    
+}
+body {
+    background-color: lightblue; /* או כל צבע אחר שתרצה */
+}
+a.contact {
+    font-size: 80px;
+    color: coral;
+    text-decoration: none;
+}
